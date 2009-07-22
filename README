@@ -1,2 +1,4 @@
 Ported from http://github.com/spullara/findmyiphone/tree/master and http://github.com/tylerhall/sosumi/tree/master
 They worked it all out.
+
+In the examples directory is a Fire Eagle updater. Rename the *.yml.example files to *.yml and fill in your MobileMe account details and a valid set of Fire Eagle OAuth tokens, and it'll update your location using the MobileMe data.
