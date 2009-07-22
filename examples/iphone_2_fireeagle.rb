@@ -1,6 +1,6 @@
 #!/usr/bin/ruby
 require 'rubygems'
-require 'lib/findmyiphone'
+require 'findmyiphone'
 require 'oauth'
 require 'fireeagle'
 require 'pp'
