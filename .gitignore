@@ -2,3 +2,8 @@
 examples/fireeagle_keys.yml
 examples/iphone_credentials.yml
 .*.swp
+*.sw?
+.DS_Store
+coverage
+rdoc
+pkg

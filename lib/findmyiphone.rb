@@ -3,7 +3,6 @@ require 'mechanize'
 require 'json'
 
 class FindMyIphone
-    VERSION = [0, 1, 1]
     def initialize(username, password)
         @username = username
         @password = password
