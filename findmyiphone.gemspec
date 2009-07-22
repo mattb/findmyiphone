@@ -7,8 +7,7 @@ s.description = "A toolkit for sending messages and getting location from Mobile
 s.authors = ["Matt Biddulph"]
 s.email = ["mb@hackdiary.com"]
  
-s.files = ["examples/fireeagle_keys.yml", "examples/iphone_2_fireeagle.rb", "examples/iphone_credentials.yml", "lib/findmyiphone.rb", "Rakefile"]
-s.executables = ["findmyiphone"]
+s.files = ["examples/fireeagle_keys.yml.example", "examples/iphone_2_fireeagle.rb", "examples/iphone_credentials.yml.example", "lib/findmyiphone.rb", "Rakefile"]
 s.require_paths = ["lib"]
  
 s.add_dependency("mechanize", [">= 0.9.3"])
