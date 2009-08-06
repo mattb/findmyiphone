@@ -25,7 +25,7 @@ class FindMyIphone
             }
 
             page = @agent.post(devicesurl)
-            @thedevices = page.content.match(/tDeviceMgmt.deviceIdMap\['[0-9+]'\] = '([^']+)'/).captures
+            @thedevices = page.content.scan(/tDeviceMgmt.deviceIdMap\['[0-9+]'\] = '([^']+)'/).flatten
         end
         return @thedevices
     end
